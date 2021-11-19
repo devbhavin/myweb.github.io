@@ -14,9 +14,7 @@
       padding: 80px;
       text-align: center;
       background-image: url("images.jpg");
-     
-        
-      @media screen and (max-width: 1200px) and (min-width: 768px) {}
+      background-size: 100% 100%;
     }
     
     /* Increase the font size of the heading */
@@ -90,26 +88,14 @@
       text-align: center;
       background: #ddd;
     }
-    
-    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 700px) {
-      .row {   
-        flex-direction: column;
-      }
-    }
-    
-    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-    @media screen and (max-width: 400px) {
-      .navbar a {
-        float: none;
-        width: 100%;
-      }
-    }
+
     body {
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
       height: 100vh;
+
+     
     }
     
     @keyframes gradient {
