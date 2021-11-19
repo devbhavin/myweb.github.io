@@ -14,8 +14,9 @@
       padding: 80px;
       text-align: center;
       background-image: url("images.jpg");
-      background-repeat: no-repeat;
-      background-size: 1550px 200px;
+     
+        
+      @media screen and (max-width: 1200px) and (min-width: 768px) {}
     }
     
     /* Increase the font size of the heading */
