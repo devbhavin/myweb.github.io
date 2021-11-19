@@ -12,12 +12,15 @@
     /* Header/logo Title */
     .header {
       padding: 80px;
-      height: 400px;
+      
       background-image: url("images.jpg");
       width: 100%;
-      background-size: cover;
+      background-size: contain;
     }
-    
+    .icon-bar{
+      background: darkorange;
+
+    }
     /* Increase the font size of the heading */
     .header h1 {
       font-size: 40px;
@@ -28,7 +31,8 @@
       overflow: hidden;
       background-color: #333;
       width: 100%;
-      background-size: cover;
+      background-size: contain;
+      
     }
     
     /* Style the navigation bar links */
@@ -93,9 +97,9 @@
     }
 
     body {
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background: linear-gradient(-5deg, #e7ddda, #f8f2f4, #d8ebf1, #e9f0ee);
       background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
+      animation: gradient 5s ease infinite;
       height: 100vh;
 
      
@@ -120,13 +124,18 @@
       border:2px solid black;
       padding:5px
     
+    
   }
 
   .bottomright {
-    position: absolute;
+    position: inline;
     bottom: 8px;
     width:50%;
     right: 16px;
     font-size: 18px;
   }
   
+  dt,dd {
+    text-decoration:"none";
+  color: #000;
+  }
