@@ -12,9 +12,10 @@
     /* Header/logo Title */
     .header {
       padding: 80px;
+      height: 400px;
       background-image: url("images.jpg");
-      
-      
+      width: 100%;
+      background-size: cover;
     }
     
     /* Increase the font size of the heading */
@@ -26,7 +27,8 @@
     .navbar {
       overflow: hidden;
       background-color: #333;
-     
+      width: 100%;
+      background-size: cover;
     }
     
     /* Style the navigation bar links */
