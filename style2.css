@@ -1,22 +1,29 @@
 
-    * {
-      box-sizing: border-box;
-    }
+    
     
     /* Style the body */
+
+    html{
+      margin: 0;
+    }
+
     body {
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
     }
     
     /* Header/logo Title */
+
     .header {
-      padding: 80px;
-      
-      background-image: url("images.jpg");
-      width: 100%;
-      background-size: contain;
+      padding: 60px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+      font-size: 30px;
     }
+
+
+  
     .icon-bar{
       background: darkorange;
 
@@ -31,9 +38,14 @@
       overflow: hidden;
       background-color: #333;
       width: 100%;
-      background-size: contain;
+      display: flex;
+     
       
     }
+
+    
+    
+
     
     /* Style the navigation bar links */
     .navbar a {
@@ -101,7 +113,7 @@
       background-size: 400% 400%;
       animation: gradient 5s ease infinite;
       height: 100vh;
-
+        width: 100%;
      
     }
     
@@ -120,12 +132,14 @@
 
     th {
       width:200px;
-      text-align:center;
-      border:2px solid black;
+     
+      border:5px solid black;
       padding:5px
     
     
   }
+
+
 
   .bottomright {
     position: inline;
@@ -133,6 +147,13 @@
     width:50%;
     right: 16px;
     font-size: 18px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
   }
   
   dt,dd {
